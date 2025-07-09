@@ -9,6 +9,6 @@ testnet = "${RPC_URL}"
 
 # Add this section for verification
 [profile.default.verifiers]
-sourcify_testnet = { url = "https://server-verify.hashscan.io/" }
+sourcify = { url = "https://server-verify.hashscan.io/" }
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
